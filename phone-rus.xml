@@ -1,0 +1,12 @@
+<CiscoIPPhoneDirectory>
+    <Title>Телефонный справочник</Title>
+     <Prompt>Телефоны</Prompt>
+     <DirectoryEntry>
+          <Name>Баба Римма</Name>
+          <Telephone>10</Telephone>
+     </DirectoryEntry>
+     <DirectoryEntry>
+          <Name>Баба Люда</Name>
+          <Telephone>27755</Telephone>
+     </DirectoryEntry>
+</CiscoIPPhoneDirectory> 

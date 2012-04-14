@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+cd /home/www/cisco
+wget http://www.meteonova.ru/informer/PNG104_27653_000080_000080_E0E0FF_A6A6FF_FFFFFF_000099_9999FF.PNG
+wget http://realmeteo.ru/nnovgorod/1/images/data/info4.png

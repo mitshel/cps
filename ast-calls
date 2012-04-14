@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#tail -25 /var/log/asterisk/cdr-csv/Master.csv | sed 's/,Tt//g' | awk -F"," '{print $5 " -> " $3 " (" $11 ");  " }' | sed 's/"//g;s/</[/g;s/>/]/g' > ast-calls.log
+#tail -25 /var/log/asterisk/cdr-csv/Master.csv | sed 's/,Tt//g' | awk -F"," '{print $11 " " $5 " to " $3 " (" $16 ") " }' | sed 's/"//g;s/</[/g;s/>/]/g' | sort -r > ast-calls.log
+tail -25 /var/log/asterisk/cdr-csv/Master.csv | sed 's/,Tt//g' | awk -F"," '{print $11 " " $5 " to " $3 " "}' | sed 's/"//g;s/</[/g;s/>/]/g' | sort -r > ast-calls.log

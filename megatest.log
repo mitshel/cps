@@ -1,0 +1,13 @@
+MEGATEST TELEPHONY Вск Янв 1 21:14:57 MSK 2012
+-------------------------------------------------
+1. FXO TEST
+ASTERISK FXO LINES = 0
+FXO GATEWAY LINES
+
+2. FXS TEST
+ASTERISK FXS LINES = 0
+FXO GATEWAY LINES
+1     OK   Ready
+2     OK   Ready
+
+3. ASTERISK CHANNELS
